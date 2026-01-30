@@ -1,54 +1,13 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-    <title>My awesome blog</title>
-
-    <link rel="stylesheet" href="./assets/styles.css" />
-</head>
-
-<body>
-    <h1 class="text-center">My awesome blog</h1>
-
-    <!-- Formulaire d'ajout -->
-    <section class="col col-4 border-black p-1">
-        <h2 class="text-center">News form</h2>
-
-        <form>
-            <div>
-                <label>Title</label><br/>
-                <input type="text" name="titleToAdd" />
-            </div>
-
-            <div>
-                <label>Description</label><br/>
-                <textarea name="descriptionToAdd"></textarea>
-            </div>
-
-            <input type="submit" value="Submit" />
-            <!-- <button>Submit</button> -->
-        </form>
-    </section>
-
-    <!-- Liste d'article -->
-    <section class="col col-8 border-black p-1">
-        <h2 class="text-center">My news</h2>
-        <h3></h3>
-
-        <div id="newsList">
-        </div>
-
-        <button>Export all articles</button>
-    </section>
-
-    <!-- En JavaScript l'ordre d'inclusion n'a pas d'importance -->
-    <script src="./src/constant.js"></script>
-    <script src="./src/article-html.js"></script>
-    <script src="./src/article-form.js"></script>
-    <script src="./src/article-api.js"></script>
-    <script src="./src/log.js"></script>
-    <script src="./src/main.js"></script>
-</body>
-
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vite App</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
 </html>
